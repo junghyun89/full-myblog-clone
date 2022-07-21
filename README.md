@@ -1,6 +1,6 @@
 ## stacks
 
-react.js
-node.js
-css
-mongodb
+- react.js
+- node.js
+- css
+- mongodb
