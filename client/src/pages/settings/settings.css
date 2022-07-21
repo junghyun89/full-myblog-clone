@@ -1,0 +1,98 @@
+:root {
+  --font-1: #c7c7c7;
+  --font-2: #6e6e6e;
+}
+
+.settings {
+  display: flex;
+  background-color: var(--background-color);
+}
+
+.settingsWrapper {
+  flex: 9;
+  padding: 30px;
+}
+
+.settingsTitle {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-family: 'Noto Sans KR', sans-serif;
+  text-transform: uppercase;
+}
+
+.settingsUpdateTitle {
+  font-size: 30px;
+  margin-bottom: 20px;
+  color: var(--font-2);
+}
+
+.settingsDeleteTitle {
+  color: var(--font-1);
+  font-size: 12px;
+  cursor: pointer;
+}
+
+.settingsForm {
+  display: flex;
+  flex-direction: column;
+}
+
+.settingsPP {
+  display: flex;
+  align-items: center;
+  margin: 10px 0;
+  margin-left: 10px;
+  position: relative;
+}
+
+.settingsPP > img {
+  width: 70px;
+  height: 70px;
+  margin-left: 15px;
+  margin-top: 10px;
+  background-color: white;
+}
+
+.settingsPPIcon {
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  color: var(--font-1);
+  box-shadow: 3px 3px 5px var(--shadow-right),-2px -2px 4px var(--shadow-left);
+  border: 1px solid var(--bg-grey);
+  top: 0;
+  left: 0;
+  z-index: 999;
+  /* display: flex;
+  align-items: center; */
+  /* margin-left: 10px; */
+  cursor: pointer;
+}
+
+.settingsForm > label {
+  font-size: 20px;
+  margin-top: 20px;
+  color: var(--font-1);
+  text-transform: uppercase;
+}
+
+.settingsForm > input {
+  margin: 10px 0;
+  padding-left: 10px;
+  height: 30px;
+  box-shadow: 3px 3px 5px var(--shadow-right),-2px -2px 4px var(--shadow-left);
+  border: 1px solid var(--bg-grey);
+}
+
+.settingsSubmit {
+  box-shadow: 3px 3px 5px var(--shadow-right),-2px -2px 4px var(--shadow-left);
+  border: 1px solid var(--bg-grey);
+  width: 150px;
+  align-self: center;
+  color: var(--font-2);
+  padding: 10px;
+  margin-top: 20px;
+  cursor: pointer;
+}

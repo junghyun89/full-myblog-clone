@@ -1,0 +1,107 @@
+:root {
+  --font: #3c3d4d;
+}
+
+.singlePost {
+  flex: 9;
+}
+
+.singlePostWrapper {
+  padding: 20px;
+  padding-right: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.singlePostImg {
+  width: 100%;
+  height: 300px;
+  border-radius: 5px;
+  object-fit: cover;
+}
+
+.singlePostTitle {
+  text-align: center;
+  margin: 10px;
+  font-size: 28px;
+  font-family: 'Bebas Neue', cursive;
+  letter-spacing: 1px;
+}
+
+.singlePostTitleInput {
+  margin: 10px;
+  font-size: 28px;
+  font-family: 'Bebas Neue', cursive;
+  letter-spacing: 1px;
+  padding-left: 10px;
+  box-shadow: 3px 3px 5px var(--shadow-right),-2px -2px 4px var(--shadow-left);
+  border: 1px solid var(--bg-grey);
+}
+
+.singlePostTitleInput:focus {
+  outline: none;
+}
+
+.singlePostEdit {
+  float: right;
+  font-size: 16px;
+}
+
+.singlePostIcon {
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+.singlePostIcon:first-child {
+  color: teal;
+}
+
+.singlePostIcon:last-child {
+  color: tomato;
+}
+
+.singlePostInfo {
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 18px;
+  color: var(--font);
+  font-family: 'Bebas Neue', cursive;
+}
+
+.singlePostAuthor > b {
+  font-family: 'Gugi', cursive;
+  font-size: 14px;
+}
+
+.singlePostDesc {
+  color: var(--font);
+  font-size: 18px;
+  line-height: 25px;
+}
+
+.singlePostDesc::first-letter {
+  margin-left: 20px;
+}
+
+.singlePostDescInput {
+  box-shadow: 3px 3px 5px var(--shadow-right),-2px -2px 4px var(--shadow-left);
+  border: 1px solid var(--bg-grey);
+  font-size: 18px;
+  line-height: 25px;
+  outline: none;
+  padding-left: 10px;
+}
+
+.singlePostButton {
+  width: 100px;
+  margin-top: 20px;
+  cursor: pointer;
+  box-shadow: 3px 3px 5px var(--shadow-right),-2px -2px 4px var(--shadow-left);
+  border: 1px solid var(--bg-grey);
+  color: var(--font-2);
+  padding: 10px;
+  text-transform: uppercase;
+  align-self: flex-end;
+}

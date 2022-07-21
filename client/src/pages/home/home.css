@@ -1,0 +1,8 @@
+:root {
+  --bg-grey: #ebebeb;
+}
+
+.home {
+  display: flex;
+  background-color: var(--bg-grey);
+}
