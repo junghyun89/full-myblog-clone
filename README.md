@@ -1,1 +1,6 @@
-# full-myblog-clone
+## stacks
+
+react.js
+node.js
+css
+mongodb
